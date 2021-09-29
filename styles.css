@@ -16,9 +16,7 @@ body{
 }
 
 header{
-	
 	padding:1.5rem;
-	
 }
 /*nav*/
 nav{
@@ -40,8 +38,6 @@ nav{
 	margin-bottom:5px;
 	display:inline-block;
 	cursor:pointer;
-	
-	
 }
 .close{
 	background-image:url('images/icon-close.svg');
@@ -53,18 +49,15 @@ nav{
 }
 .menu, .top-btn{
 	display:none;
-	
 }
 .menu{
 	padding-bottom:.8rem;
 }
 .menu a{
-	text-decoration:none;
-	
+	text-decoration:none;	
 	color: hsl(228, 39%, 23%);
 	font-weight: 700;
 	padding: .5rem;
-	
 }
 .menu a:hover{
 	color:hsl(227, 12%, 61%);
@@ -124,7 +117,6 @@ nav{
 	text-align:center;
 }
 .col-right{
-	
 	background-image:url('images/bg-tablet-pattern.svg');
 	background-size:cover;
 	background-position:right -6.5rem top -5rem;
@@ -135,7 +127,6 @@ nav{
 	height:auto;
 	width:90%;
 	margin-top:7rem;
-	
 }
 .col-left{
 	background-image:url('images/bg-tablet-pattern.svg');
@@ -181,7 +172,6 @@ nav{
 	color:hsl(228, 39%, 23%);
 	font-size:1.8rem;
 	margin-top:0;
-	
 }
 .main-content p{
 	color:hsl(227, 12%, 61%);
@@ -191,9 +181,6 @@ nav{
 }
 .about-content{
 	padding-left:.8rem;
-	
-}
-.about-item{
 	
 }
 .about-item h4{
@@ -214,7 +201,6 @@ nav{
 	padding-left: 1.2rem;
 	margin-right:.3rem;
 	border-radius:20px;
-	
 }
 .about-item p{
 	padding-right:.8rem;
@@ -238,7 +224,6 @@ nav{
 .slider{
 	padding-left: 2rem;
 	padding-right: 2rem;
-	
 }
 .card{
 	background-color:hsl(0, 0%, 97.3%);
@@ -247,7 +232,6 @@ nav{
 	text-align:center;
 	display:none;
 }
-
 .card > img{
 	margin-top: -120%;
 	width: 35%;
@@ -270,11 +254,9 @@ nav{
 	border:2px solid hsl(12, 88%, 59%);
 	border-radius:50%;
 }
-
 .red{
 	background-color: hsl(12, 88%, 59%);
 }
-
 
 /*simplify get started*/
 .simplify{
@@ -360,11 +342,9 @@ input::placeholder{
 	display:block;
 	line-height:2;
 	text-decoration:none;
-	
 }
 .footer-menu-col-left a:hover, .footer-menu-col-right a:hover{
 	color:hsl(12, 88%, 59%);
-	
 }
 .social-icons{
 	display:flex;
@@ -391,16 +371,15 @@ input::placeholder{
 @media(min-width:460px){
 	
 	.col-left{
-	background-image:none;
-	margin-top:3rem;
+		background-image:none;
+		margin-top:3rem;
 	}
 	.main-content{
 		margin:auto;
 	}
 	.about-content{
-	padding-left: 2rem;
-	padding-right: 2rem;
-	
+		padding-left: 2rem;
+		padding-right: 2rem;
 	}
 	.about-item h4{
 		border-radius:20px;
@@ -421,8 +400,6 @@ input::placeholder{
 		padding-left:6rem;
 		padding-right:6rem;
 	}
-	
-	
 	.logo{
 		width:100%;
 	}
@@ -432,8 +409,7 @@ input::placeholder{
 	.col-right img{
 		width:auto;
 	}
-	.col-left{
-		
+	.col-left{	
 		padding-left:6rem;
 		padding-right:6rem;
 	}
@@ -456,10 +432,8 @@ input::placeholder{
 }
 @media(min-width:990px){
 	
-	
 	.menu, .top-btn{
 		display:inline-block;
-		
 	}
 	.menu a{
 		padding:.8rem;
@@ -546,7 +520,7 @@ input::placeholder{
 	}
 	
 	.slider:hover {
-    animation-play-state: paused;
+   	    animation-play-state: paused;
 	}
 	.card{
 		font-size:.9rem;
@@ -569,23 +543,22 @@ input::placeholder{
 	.card4{
 		left:120%;
 	}
-  .slider-dots{
+  	.slider-dots{
 		display:none;
 	}
   
-  .testimonials>.cta-btn{
+  	.testimonials>.cta-btn{
 	  margin-top:20rem;
   }
-  
-  .simplify{
-	background-image:url('images/bg-simplify-section-desktop.svg');
-	background-size:cover;
-	background-position-y: 90%;
-	padding:3rem 6rem;
-	display:flex;
-	flex-direction:row;
-	justify-content: space-between;
-	align-items: center;
+   .simplify{
+		background-image:url('images/bg-simplify-section-desktop.svg');
+		background-size:cover;
+		background-position-y: 90%;
+		padding:3rem 6rem;
+		display:flex;
+		flex-direction:row;
+		justify-content: space-between;
+		align-items: center;
   }
   .simplify > h2{
 	  width:50%;
@@ -609,16 +582,13 @@ input::placeholder{
 		
 	}
 	
-	
 	.footer-container{
-	display: grid;
-	grid-template-columns: 1fr 2fr 1fr;
-	grid-template-rows: 1fr 1fr;
-	grid-template-areas:
-			"logo menu newsletter"
-			"social menu copyright";
-	
-			
+		display: grid;
+		grid-template-columns: 1fr 2fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		grid-template-areas:
+				"logo menu newsletter"
+				"social menu copyright";			
 	}
 	.footer-menu{
 		grid-area:menu;
