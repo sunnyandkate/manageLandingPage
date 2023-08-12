@@ -8,7 +8,7 @@ toggleMenu.addEventListener('click', function(){
 	menu.classList.toggle('mobile-menu');
 	contOverlay.classList.toggle('overlay');
 	toggleMenu.classList.toggle('close');
-	menu.classList.add('animate__animated', 'animate__fadeInDown');
+	
 
 });
 
